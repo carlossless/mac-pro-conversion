@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MacProPanel-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,12 +45,12 @@ $EndDescr
 $Comp
 L CONN_02X04 P3
 U 1 1 57E6E3DC
-P 5350 3600
-F 0 "P3" H 5350 3850 50  0000 C CNN
-F 1 "CONN_02X04" H 5350 3350 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_NanoFit_2x04x2.50mm_Straight" H 5350 2400 50  0001 C CNN
-F 3 "" H 5350 2400 50  0000 C CNN
-	1    5350 3600
+P 5450 3400
+F 0 "P3" H 5450 3650 50  0000 C CNN
+F 1 "CONN_02X04" H 5450 3150 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microfit3_Header_02x04_Straight_43045-0828" H 5450 2200 50  0001 C CNN
+F 3 "" H 5450 2200 50  0000 C CNN
+	1    5450 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -79,12 +78,12 @@ $EndComp
 $Comp
 L CONN_02X05 P4
 U 1 1 57E6E596
-P 6600 3450
-F 0 "P4" H 6600 3750 50  0000 C CNN
-F 1 "CONN_02X05" H 6600 3150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 6600 2250 50  0001 C CNN
-F 3 "" H 6600 2250 50  0000 C CNN
-	1    6600 3450
+P 7600 3400
+F 0 "P4" H 7600 3700 50  0000 C CNN
+F 1 "CONN_02X05" H 7600 3100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 7600 2200 50  0001 C CNN
+F 3 "" H 7600 2200 50  0000 C CNN
+	1    7600 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -123,12 +122,12 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 57E6EE41
-P 4950 3650
-F 0 "#PWR01" H 4950 3400 50  0001 C CNN
-F 1 "GND" H 4950 3500 50  0000 C CNN
-F 2 "" H 4950 3650 50  0000 C CNN
-F 3 "" H 4950 3650 50  0000 C CNN
-	1    4950 3650
+P 4550 3250
+F 0 "#PWR01" H 4550 3000 50  0001 C CNN
+F 1 "GND" H 4550 3100 50  0000 C CNN
+F 2 "" H 4550 3250 50  0000 C CNN
+F 3 "" H 4550 3250 50  0000 C CNN
+	1    4550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -144,11 +143,11 @@ F 3 "" H 5850 4250 50  0000 C CNN
 $EndComp
 Text GLabel 6350 4150 0    60   Input ~ 0
 ATX01_3.3V
-Text GLabel 5600 3650 2    60   Input ~ 0
+Text GLabel 5700 3250 2    60   Input ~ 0
 ATX01_3.3V
-Text GLabel 5600 3450 2    60   Input ~ 0
+Text GLabel 5700 3450 2    60   Input ~ 0
 ATX06_5V
-Text GLabel 5100 3450 0    60   Input ~ 0
+Text GLabel 5200 3450 0    60   Input ~ 0
 ATX10_12V
 Text GLabel 6850 4550 2    60   Input ~ 0
 ATX10_12V
@@ -210,24 +209,24 @@ NoConn ~ 5700 2300
 NoConn ~ 5700 2400
 NoConn ~ 5700 2500
 NoConn ~ 8400 2600
-Text GLabel 6850 3450 2    60   Input ~ 0
+Text GLabel 7850 3400 2    60   Input ~ 0
 MB_PW+
-Text GLabel 6850 3350 2    60   Input ~ 0
+Text GLabel 7850 3300 2    60   Input ~ 0
 MB_MSG-
-Text GLabel 5600 3550 2    60   Input ~ 0
+Text GLabel 5700 3550 2    60   Input ~ 0
 MB_MSG-
-Text GLabel 5100 3550 0    60   Input ~ 0
+Text GLabel 5200 3550 0    60   Input ~ 0
 MB_PW+
-NoConn ~ 5600 3750
-NoConn ~ 5100 3750
-NoConn ~ 6350 3250
-NoConn ~ 6350 3350
-NoConn ~ 6350 3450
-NoConn ~ 6350 3550
-NoConn ~ 6350 3650
-NoConn ~ 6850 3650
-NoConn ~ 6850 3550
-NoConn ~ 6850 3250
+NoConn ~ 5200 3350
+NoConn ~ 5700 3350
+NoConn ~ 7350 3200
+NoConn ~ 7350 3300
+NoConn ~ 7350 3400
+NoConn ~ 7350 3500
+NoConn ~ 7350 3600
+NoConn ~ 7850 3600
+NoConn ~ 7850 3500
+NoConn ~ 7850 3200
 Text GLabel 6350 4350 0    60   Input ~ 0
 ATX_05
 Text GLabel 6350 4450 0    60   Input ~ 0
@@ -341,5 +340,5 @@ Wire Wire Line
 Wire Wire Line
 	5850 4250 6350 4250
 Wire Wire Line
-	5100 3650 4950 3650
+	4550 3250 5200 3250
 $EndSCHEMATC
